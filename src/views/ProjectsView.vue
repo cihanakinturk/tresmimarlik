@@ -109,7 +109,7 @@ const currentGalleryImage = computed(() => {
           <div v-for="project in filteredProjects" :key="project.id" @click="openModal(project)" class="group relative overflow-hidden rounded-lg cursor-pointer">
             <!-- Proje Görseli -->
             <div class="h-64 bg-gray-200 overflow-hidden">
-              <img :src="project.image" :alt="project.title" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+              <img :src="project.image" :alt="project.title" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
             </div>
             <!-- Proje Bilgileri -->
             <div class="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/90 to-transparent p-4">
@@ -177,7 +177,7 @@ const currentGalleryImage = computed(() => {
 
             <!-- Sağ - Galeri -->
             <div class="lg:w-3/5 bg-gray-100 relative min-h-[300px] lg:min-h-[500px]">
-              <img :src="currentGalleryImage" :alt="selectedProject.title" class="w-full h-full object-cover" />
+              <img :src="currentGalleryImage" :alt="selectedProject.title" loading="lazy" class="w-full h-full object-cover" />
 
               <!-- Galeri Navigasyonu -->
               <div v-if="selectedProject.gallery?.length > 1" class="absolute bottom-4 left-0 right-0 flex items-center justify-center gap-4">

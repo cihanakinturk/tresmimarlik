@@ -239,7 +239,7 @@ onMounted(() => {
     <section
       id="hero"
       class="relative min-h-[90vh] lg:min-h-[90vh] md:min-h-[90vh] sm:min-h-[40vh] flex items-center py-10 sm:py-16 lg:py-24 bg-cover bg-center bg-no-repeat"
-      style="background-image: url('/images/aryom-koru-2.jpg')">
+      style="background-image: url('/images/aryom-koru-2.webp')">
       <!-- Koyu overlay -->
       <div class="absolute inset-0 bg-black/40"></div>
 
@@ -296,8 +296,8 @@ onMounted(() => {
           </dl>
         </div>
         <div class="flex gap-15 pt-20 flex-col lg:flex-row md:flex-row sm:flex-col md:gap-5 lg:gap-5 md:ml-12 lg:ml-5">
-          <img src="/images/bgimage.jpg" alt="" class="w-80 h-120 object-cover rounded-lg border border-gray-900/50" />
-          <img src="/images/aryom-hero-2.png" alt="" class="w-80 h-120 object-cover rounded-lg mt-10 lg:mt-8 md:mt-15" />
+          <img src="/images/bgimage.webp" alt="" class="w-80 h-120 object-cover rounded-lg border border-gray-900/50" />
+          <img src="/images/aryom-hero-2.webp" alt="" class="w-80 h-120 object-cover rounded-lg mt-10 lg:mt-8 md:mt-15" />
         </div>
       </div>
     </section>
@@ -338,7 +338,7 @@ onMounted(() => {
         <SwiperSlide v-for="project in featuredProjects" :key="project.id">
           <div class="select-none cursor-pointer" @click="openModal(project)">
             <div class="h-80 rounded-lg bg-white overflow-hidden group">
-              <img :src="project.image" alt="" class="rounded-lg object-cover w-full h-full pointer-events-none group-hover:scale-110 transition-transform duration-500" />
+              <img :src="project.image" alt="" loading="lazy" class="rounded-lg object-cover w-full h-full pointer-events-none group-hover:scale-110 transition-transform duration-500" />
             </div>
             <h2 class="mt-4 text-xl font-bold">{{ project.title }}</h2>
 
@@ -404,7 +404,7 @@ onMounted(() => {
 
             <!-- Sağ - Galeri -->
             <div class="lg:w-3/5 bg-gray-100 relative min-h-[300px] lg:min-h-[500px]">
-              <img :src="currentGalleryImage" :alt="selectedProject.title" class="w-full h-full object-cover" />
+              <img :src="currentGalleryImage" :alt="selectedProject.title" loading="lazy" class="w-full h-full object-cover" />
 
               <!-- Galeri Navigasyonu -->
               <div v-if="selectedProject.gallery?.length > 1" class="absolute bottom-4 left-0 right-0 flex items-center justify-center gap-4">
@@ -449,7 +449,7 @@ onMounted(() => {
         </div>
         <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 items-stretch">
           <div v-for="member in team" :key="member.id" class="bg-gray-50 rounded-lg shadow sm:flex h-full">
-            <img class="w-full sm:w-40 sm:h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg shrink-0" :src="member.image" :alt="member.name" />
+            <img class="w-full sm:w-40 sm:h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg shrink-0" :src="member.image" :alt="member.name" loading="lazy" />
             <div class="p-5 flex flex-col justify-between flex-1">
               <div>
                 <h3 class="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-black to-gray-400 mb-1">{{ member.name }}</h3>

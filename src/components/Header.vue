@@ -14,7 +14,7 @@ const isScrolled = ref(false)
 // Dil seçimi
 const languages = [
   { code: 'tr', name: 'Türkçe', flag: '/images/tr.svg' },
-  { code: 'en', name: 'English', flag: '/images/gb.png' },
+  { code: 'en', name: 'English', flag: '/images/gb.webp' },
 ]
 const currentLang = ref(languages[0])
 const langDropdownOpen = ref(false)
