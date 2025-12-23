@@ -296,8 +296,8 @@ onMounted(() => {
           </dl>
         </div>
         <div class="flex gap-15 pt-20 flex-col lg:flex-row md:flex-row sm:flex-col md:gap-5 lg:gap-5 md:ml-12 lg:ml-5">
-          <img src="/public/images/bgimage.jpg" alt="" class="w-80 h-120 object-cover rounded-lg border border-gray-900/50" />
-          <img src="/public/images/aryom-hero-2.png" alt="" class="w-80 h-120 object-cover rounded-lg mt-10 lg:mt-8 md:mt-15" />
+          <img src="/images/bgimage.jpg" alt="" class="w-80 h-120 object-cover rounded-lg border border-gray-900/50" />
+          <img src="/images/aryom-hero-2.png" alt="" class="w-80 h-120 object-cover rounded-lg mt-10 lg:mt-8 md:mt-15" />
         </div>
       </div>
     </section>
@@ -424,7 +424,7 @@ onMounted(() => {
     <div class="px-4 mt-20 lg:mt-0 md:mt-0 relative md:mb-0">
       <div
         class="flex relative max-w-7xl mx-auto h-auto py-12 lg:py-16 mb-40 rounded-2xl items-center bg-[#E30613] px-8 lg:px-16 justify-between flex-col md:flex-row lg:flex-row gap-8 overflow-hidden">
-        <img src="/public/images/ctavector.svg" alt="" class="absolute top-0 right-0 scale-100 opacity-80" />
+        <img src="/images/ctavector.svg" alt="" class="absolute top-0 right-0 scale-100 opacity-80" />
         <div class="flex items-start justify-center text-white flex-col z-10 max-w-xl">
           <span class="text-white/70 text-sm font-medium tracking-wider uppercase mb-2">{{ $t('cta.tagline') }}</span>
           <h3 class="text-3xl lg:text-4xl font-bold mb-3">{{ $t('cta.title') }}</h3>

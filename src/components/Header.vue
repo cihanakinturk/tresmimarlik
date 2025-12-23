@@ -45,7 +45,7 @@ onUnmounted(() => {
       <div class="flex lg:flex-1">
         <RouterLink to="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Tres-Mimarlık</span>
-          <img class="h-8 w-auto" src="/public/images/logo.svg" alt="Tres-Mimarlık-Logo" />
+          <img class="h-8 w-auto" src="/images/logo.svg" alt="Tres-Mimarlık-Logo" />
         </RouterLink>
       </div>
       <div class="flex lg:hidden">
@@ -103,7 +103,7 @@ onUnmounted(() => {
         <div class="flex items-center justify-between">
           <RouterLink to="/" class="-m-1.5 p-1.5" @click="mobileMenuOpen = false">
             <span class="sr-only">Tres Mimarlık</span>
-            <img class="h-8 w-auto" src="/public/images/logowhite.svg" alt="Tres-Mimarlık-Logo" />
+            <img class="h-8 w-auto" src="/images/logowhite.svg" alt="Tres-Mimarlık-Logo" />
           </RouterLink>
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-400" @click="mobileMenuOpen = false">
             <span class="sr-only">Close menu</span>

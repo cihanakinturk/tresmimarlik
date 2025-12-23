@@ -90,7 +90,7 @@
       "firstName": "Adınız",
       "lastName": "Soyadınız",
       "company": "Şirket adı",
-      "email": "ornek@email.com",
+      "email": "ornek{'@'}email.com",
       "phone": "05XX XXX XX XX",
       "message": "Projeniz hakkında bilgi verin"
     }
