@@ -1,0 +1,94 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Nüzhet Albayrak",
+      "role": "Kurucu Mimar",
+      "image": "/images/nüzhet.jpg",
+      "bio": "İTÜ Mimarlık mezunu. 2001 yılında Tres Mimarlık'ı kurdu ve 25 yılı aşkın sektör deneyimine sahip.",
+      "socials": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Anıl Selçuk",
+      "role": "Mimar",
+      "image": "/images/anil-selcuk.jpg",
+      "bio": "İstanbul Kültür Üniversitesi Mimarlık mezunu. 2013'ten beri Tres Mimarlık'ta çalışıyor.",
+      "socials": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cansu Kışla",
+      "role": "Y. Mimar",
+      "image": "/images/cansu-kisla.jpg",
+      "bio": "İstanbul Kültür Üniversitesi Mimarlık mezunu. 2017'den beri Tres Mimarlık'ta çalışıyor.",
+      "socials": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Emir Çekmecelioğlu",
+      "role": "Y. Mimar",
+      "image": "/images/emir-cekmecelioglu.jpg",
+      "bio": "Çukurova Üniversitesi Mimarlık ve YTÜ yüksek lisans mezunu. Doktora eğitimine devam ediyor. 2013'ten beri Tres Mimarlık'ta.",
+      "socials": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Emirhan Gültekin",
+      "role": "Mimar",
+      "image": "/images/emirhan-gultekin.jpg",
+      "bio": "Yıldız Teknik Üniversitesi Mimarlık mezunu. 2019'dan beri Tres Mimarlık'ta çalışıyor.",
+      "socials": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 6,
+      "name": "İsmail Kılşıklı",
+      "role": "Y. Mimar",
+      "image": "/images/ismail-kilsikli.jpg",
+      "bio": "İstanbul Haliç Üniversitesi Mimarlık mezunu. 2014'ten beri Tres Mimarlık'ta çalışıyor.",
+      "socials": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Nazlı Yalçındağ",
+      "role": "Y. Mimar",
+      "image": "/images/nazli-yalcindag.jpg",
+      "bio": "İTÜ Mimarlık mezunu. 2017'den beri Tres Mimarlık'ta çalışıyor.",
+      "socials": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Oya Okumuş",
+      "role": "Y. Mimar",
+      "image": "/images/oya-okumus.jpg",
+      "bio": "İTÜ Mimarlık ve MSGSÜ yüksek lisans mezunu. 2010'dan beri Tres Mimarlık'ta çalışıyor.",
+      "socials": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Yasemin Beyhan",
+      "role": "Mimar",
+      "image": "/images/yasemin-beyhan.jpg",
+      "bio": "YTÜ Mimarlık mezunu. 2020'den beri Tres Mimarlık'ta çalışıyor.",
+      "socials": {
+        "linkedin": "#"
+      }
+    }
+  ]
+}

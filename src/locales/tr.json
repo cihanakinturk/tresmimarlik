@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "projects": "Projeler",
+    "team": "Ekip",
+    "contact": "İletişim",
+    "langSelect": "Dil Seçimi"
+  },
+  "hero": {
+    "tagline": "Modern Mimari & İç Tasarım",
+    "title1": "Tres Mimarlık: Estetik ve",
+    "title2": "Fonksiyonellik",
+    "subtitle": "Konut, ticari ve endüstriyel projelerde çağdaş mimari ve mühendislik çözümleri.",
+    "award": "Sign of the City Awards 2017",
+    "awardDesc": "Türkiye'nin En İyi Konut Projesi Kazanan Proje",
+    "cta1": "Projelerimiz",
+    "cta2": "Bize Ulaşın"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "1998 yılında Mimar Nüzhet Albayrak tarafından kurulan Tres Mimarlık öncelikleri çevreye duyarlı, biçimsel, işlevsel ve ekonomik olarak verimli tasarımlar ortaya koymaktır. Yapının ya da tasarım nesnesinin biçim ve ifade olarak zamansız olmasını hedefler. Karar verme sürecinde tasarımın kullanıcı ihtiyaçlarını karşılayıp karşılamadığını ve yeterinde iyi olup olmadığını sorgular. Bu tip yaklaşımlar da tasarımları aşırı cüretkar olmaktan alıkoyar.",
+    "stat1Label": "Sektör Deneyimi",
+    "stat2Label": "Tamamlanan Proje",
+    "stat3Label": "Tasarlanan Alan"
+  },
+  "projects": {
+    "featured": "Öne Çıkan",
+    "title": "Projelerimiz",
+    "subtitle1": "Fikirleri etkileyici mekanlara dönüştüren",
+    "subtitle2": "iç mekan tasarımlarımızı keşfedin.",
+    "pageTitle1": "Tasarımda Zamansızlık,",
+    "pageTitle2": "Uygulamada Mükemmellik",
+    "pageSubtitle": "90'dan fazla konut, ticari ve endüstriyel projemizle Türkiye'nin mimari dokusuna katkı sağlıyoruz.",
+    "filterAll": "Tümü",
+    "sector": "Sektör",
+    "client": "Müşteri",
+    "year": "Yıl",
+    "location": "Konum",
+    "area": "Alan",
+    "tags": {
+      "Konut": "Konut",
+      "Ticaret": "Ticaret",
+      "Otel": "Otel",
+      "Rezidans": "Rezidans",
+      "Eğitim": "Eğitim",
+      "Endüstri": "Endüstri",
+      "Ofis": "Ofis",
+      "Proje": "Proje"
+    }
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "subtitle": "Profesyonel ekibimizle tanışın"
+  },
+  "cta": {
+    "tagline": "27 Yıllık Deneyim",
+    "title": "Projeniz İçin İlk Adımı Atın",
+    "subtitle": "Konut, ticari veya endüstriyel projeleriniz için uzman ekibimizle tanışın. Hayallerinizi birlikte tasarlayalım.",
+    "button": "Bize Ulaşın"
+  },
+  "contact": {
+    "title": "İletişim",
+    "heroTitle": "Projenizi Hayata Geçirelim",
+    "heroSubtitle1": "Hayalinizdeki proje için ilk adımı atın. Uzman ekibimizle",
+    "heroSubtitle2": "tanışmak ve teklif almak için bize ulaşın",
+    "office": "Ofisimiz",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
+    "firstName": "Adınız",
+    "lastName": "Soyadınız",
+    "company": "Şirket",
+    "companyOptional": "(Opsiyonel)",
+    "email": "Email",
+    "emailOrPhone": "(Email veya telefon zorunlu)",
+    "phone": "Telefon",
+    "message": "Mesajınız",
+    "submit": "Gönder",
+    "sending": "Gönderiliyor...",
+    "sent": "Gönderildi!",
+    "errors": {
+      "firstName": "Adınız zorunludur",
+      "lastName": "Soyadınız zorunludur",
+      "contact": "Email veya telefon numarasından en az birini girmelisiniz",
+      "invalidEmail": "Geçerli bir email adresi giriniz",
+      "invalidPhone": "Geçerli bir telefon numarası giriniz",
+      "message": "Mesaj girmeyi unuttunuz :)"
+    },
+    "placeholders": {
+      "firstName": "Adınız",
+      "lastName": "Soyadınız",
+      "company": "Şirket adı",
+      "email": "ornek@email.com",
+      "phone": "05XX XXX XX XX",
+      "message": "Projeniz hakkında bilgi verin"
+    }
+  },
+  "footer": {
+    "description": "1998 yılından beri çevreye duyarlı, biçimsel ve işlevsel mimari tasarımlar ortaya koyan Tres Mimarlık, estetik ve fonksiyonel yapılar tasarlamaktadır.",
+    "quickLinks": "Hızlı Erişim",
+    "contactTitle": "İletişim",
+    "copyright": "© 2025 Tres Mimarlık. Tüm hakları saklıdır.",
+    "madeBy": "Tasarım & Geliştirme: Cihan Akıntürk"
+  }
+}

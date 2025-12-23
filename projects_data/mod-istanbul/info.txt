@@ -1,0 +1,7 @@
+mod-istanbul
+
+Konum: İstanbul, Türkiye
+Isveren: ORTADOĞU İNŞAAT
+Yil: 2016
+Sektor: Konut
+Insaat Alani: 13.590 m²

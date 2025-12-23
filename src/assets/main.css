@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+/* Safari/Opera renk uyumluluğu */
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar gizle (slider için) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

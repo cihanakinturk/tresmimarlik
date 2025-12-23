@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "projects": "Projects",
+    "team": "Team",
+    "contact": "Contact",
+    "langSelect": "Language"
+  },
+  "hero": {
+    "tagline": "Modern Architecture & Interior Design",
+    "title1": "Tres Architecture: Aesthetics and",
+    "title2": "Functionality",
+    "subtitle": "Contemporary architecture and engineering solutions for residential, commercial and industrial projects.",
+    "award": "Sign of the City Awards 2017",
+    "awardDesc": "Turkey's Best Residential Project Winner",
+    "cta1": "Our Projects",
+    "cta2": "Contact Us"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Founded in 1998 by Architect Nüzhet Albayrak, Tres Architecture prioritizes environmentally conscious, formal, functional and economically efficient designs. It aims for the building or design object to be timeless in form and expression. During the decision-making process, it questions whether the design meets user needs and is good enough. Such approaches also prevent designs from being overly audacious.",
+    "stat1Label": "Industry Experience",
+    "stat2Label": "Completed Projects",
+    "stat3Label": "Designed Area"
+  },
+  "projects": {
+    "featured": "Featured",
+    "title": "Our Projects",
+    "subtitle1": "Discover our interior designs that transform",
+    "subtitle2": "ideas into stunning spaces.",
+    "pageTitle1": "Timelessness in Design,",
+    "pageTitle2": "Excellence in Execution",
+    "pageSubtitle": "We contribute to Turkey's architectural fabric with more than 90 residential, commercial and industrial projects.",
+    "filterAll": "All",
+    "sector": "Sector",
+    "client": "Client",
+    "year": "Year",
+    "location": "Location",
+    "area": "Area",
+    "tags": {
+      "Konut": "Residential",
+      "Ticaret": "Commercial",
+      "Otel": "Hotel",
+      "Rezidans": "Residence",
+      "Eğitim": "Education",
+      "Endüstri": "Industrial",
+      "Ofis": "Office",
+      "Proje": "Project"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet our professional team"
+  },
+  "cta": {
+    "tagline": "27 Years of Experience",
+    "title": "Take the First Step for Your Project",
+    "subtitle": "Meet our expert team for your residential, commercial or industrial projects. Let's design your dreams together.",
+    "button": "Contact Us"
+  },
+  "contact": {
+    "title": "Contact",
+    "heroTitle": "Let's Bring Your Project to Life",
+    "heroSubtitle1": "Take the first step for your dream project.",
+    "heroSubtitle2": "Contact us to meet our expert team and get a quote",
+    "office": "Our Office",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "company": "Company",
+    "companyOptional": "(Optional)",
+    "email": "Email",
+    "emailOrPhone": "(Email or phone required)",
+    "phone": "Phone",
+    "message": "Your Message",
+    "submit": "Send",
+    "sending": "Sending...",
+    "sent": "Sent!",
+    "errors": {
+      "firstName": "First name is required",
+      "lastName": "Last name is required",
+      "contact": "Please enter either email or phone number",
+      "invalidEmail": "Please enter a valid email",
+      "invalidPhone": "Please enter a valid phone number",
+      "message": "Don't forget to write a message :)"
+    },
+    "placeholders": {
+      "firstName": "Your first name",
+      "lastName": "Your last name",
+      "company": "Company name",
+      "email": "example@email.com",
+      "phone": "+90 5XX XXX XX XX",
+      "message": "Tell us about your project"
+    }
+  },
+  "footer": {
+    "description": "Since 1998, Tres Architecture has been creating environmentally conscious, formal and functional architectural designs, designing aesthetic and functional structures.",
+    "quickLinks": "Quick Links",
+    "contactTitle": "Contact",
+    "copyright": "© 2025 Tres Architecture. All rights reserved.",
+    "madeBy": "Design & Development: Cihan Akıntürk"
+  }
+}

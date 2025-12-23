@@ -1,0 +1,6 @@
+buyukhanli-romanya
+
+Konum: Romanya
+Isveren: BÜYÜKHANLI
+Yil: 2020
+Sektor: Konut
