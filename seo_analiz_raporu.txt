@@ -1,0 +1,291 @@
+================================================================================
+                    TRES MİMARLIK - SEO ANALİZ RAPORU
+                    Tarih: 24 Aralık 2025
+================================================================================
+
+📊 GENEL DEĞERLENDİRME: 35/100 (Kritik Eksiklikler Mevcut)
+
+================================================================================
+🔴 KRİTİK EKSİKLİKLER (Acil Çözüm Gerektiren)
+================================================================================
+
+1. META DESCRIPTION EKSİK
+   ─────────────────────────────────────────────────────────
+   Durum: ❌ Hiç yok
+   Dosya: index.html
+   
+   Sorun: index.html dosyasında meta description etiketi bulunmuyor.
+   Bu, Google arama sonuçlarında sitenizin tanımının rastgele 
+   içeriklerden oluşmasına neden olur.
+   
+   Çözüm:
+   <meta name="description" content="Tres Mimarlık - 27 yıllık deneyim, 
+   90'dan fazla tamamlanmış proje. İstanbul merkezli profesyonel mimarlık 
+   ve tasarım stüdyosu. Konut, ticari ve kurumsal projeler.">
+
+2. CANONICAL URL EKSİK
+   ─────────────────────────────────────────────────────────
+   Durum: ❌ Hiç yok
+   
+   Sorun: Sayfa kopyalanmalarını önlemek için canonical URL tanımlı değil.
+   
+   Çözüm:
+   <link rel="canonical" href="https://tresmimarlik.com/">
+
+3. OPEN GRAPH (OG) ETİKETLERİ EKSİK
+   ─────────────────────────────────────────────────────────
+   Durum: ❌ Hiç yok
+   
+   Sorun: Facebook, LinkedIn, WhatsApp paylaşımlarında site düzgün 
+   görüntülenmiyor. Görsel ve açıklama eksik kalıyor.
+   
+   Çözüm (index.html'e eklenecek):
+   <meta property="og:title" content="Tres Mimarlık | Profesyonel Mimarlık Stüdyosu">
+   <meta property="og:description" content="27 yıllık deneyim, 90+ proje...">
+   <meta property="og:image" content="https://tresmimarlik.com/images/og-image.jpg">
+   <meta property="og:url" content="https://tresmimarlik.com">
+   <meta property="og:type" content="website">
+   <meta property="og:locale" content="tr_TR">
+
+4. TWITTER CARD ETİKETLERİ EKSİK
+   ─────────────────────────────────────────────────────────
+   Durum: ❌ Hiç yok
+   
+   Çözüm:
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Tres Mimarlık">
+   <meta name="twitter:description" content="Profesyonel mimarlık stüdyosu">
+   <meta name="twitter:image" content="https://tresmimarlik.com/images/og-image.jpg">
+
+5. ROBOTS.TXT DOSYASI EKSİK
+   ─────────────────────────────────────────────────────────
+   Durum: ❌ Hiç yok
+   
+   Sorun: Arama motorları sitenizi nasıl tarayacaklarını bilemiyor.
+   
+   Çözüm: public/robots.txt dosyası oluşturulmalı:
+   
+   User-agent: *
+   Allow: /
+   Sitemap: https://tresmimarlik.com/sitemap.xml
+
+6. SITEMAP.XML DOSYASI EKSİK
+   ─────────────────────────────────────────────────────────
+   Durum: ❌ Hiç yok
+   
+   Sorun: Google tüm sayfalarınızı keşfedemiyor olabilir.
+   
+   Çözüm: public/sitemap.xml dosyası oluşturulmalı:
+   
+   <?xml version="1.0" encoding="UTF-8"?>
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     <url>
+       <loc>https://tresmimarlik.com/</loc>
+       <changefreq>weekly</changefreq>
+       <priority>1.0</priority>
+     </url>
+     <url>
+       <loc>https://tresmimarlik.com/projeler</loc>
+       <changefreq>weekly</changefreq>
+       <priority>0.8</priority>
+     </url>
+   </urlset>
+
+================================================================================
+🟠 ÖNEMLİ EKSİKLİKLER (Orta Vadede Çözülmeli)
+================================================================================
+
+7. SAYFA BAŞLIKLARI DİNAMİK DEĞİL
+   ─────────────────────────────────────────────────────────
+   Durum: ⚠️ Yetersiz
+   
+   Sorun: Tüm sayfalarda <title> sadece "Tres Mimarlık" olarak sabit.
+   Her sayfanın benzersiz başlığı olmalı.
+   
+   Mevcut: <title>Tres Mimarlık</title>
+   
+   Olması Gereken:
+   - Ana Sayfa: "Tres Mimarlık | Profesyonel Mimarlık & Tasarım Stüdyosu"
+   - Projeler: "Projelerimiz | Tres Mimarlık"
+   - Her proje: "[Proje Adı] | Tres Mimarlık"
+   
+   Çözüm: vue-meta veya @vueuse/head paketi kullanarak sayfa başına 
+   dinamik title tanımlanmalı.
+
+8. GÖRSEL ALT AÇIKLAMALARI (ALT TEXT) EKSİK/YETERSİZ
+   ─────────────────────────────────────────────────────────
+   Durum: ⚠️ Yetersiz
+   
+   Bulunan Sorunlar:
+   - HomeView.vue satır 299: alt="" (boş)
+   - HomeView.vue satır 300: alt="" (boş)
+   - HomeView.vue satır 341: alt="" (boş)
+   - HomeView.vue satır 427: alt="" (boş)
+   
+   Çözüm: Tüm görsellere anlamlı alt text eklenmeli:
+   - alt="Tres Mimarlık ofis binası dış görünüm"
+   - alt="Aryom Koru projesi iç mekan tasarımı"
+
+9. YAPI LANDIRILMIŞ VERİ (SCHEMA.ORG) EKSİK
+   ─────────────────────────────────────────────────────────
+   Durum: ❌ Hiç yok
+   
+   Sorun: Google zengin sonuçlar (rich snippets) gösteremiyor.
+   
+   Çözüm: index.html'e JSON-LD formatında schema eklenecek:
+   
+   <script type="application/ld+json">
+   {
+     "@context": "https://schema.org",
+     "@type": "ProfessionalService",
+     "name": "Tres Mimarlık",
+     "image": "https://tresmimarlik.com/images/logo.svg",
+     "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "Teşvikiye, Poyracık Sk. No:25 D:1 Kat:1",
+       "addressLocality": "Şişli",
+       "addressRegion": "İstanbul",
+       "postalCode": "34365",
+       "addressCountry": "TR"
+     },
+     "telephone": "+90-212-343-03-87",
+     "email": "info@tresmimarlik.com",
+     "priceRange": "$$$$",
+     "openingHours": "Mo-Fr 09:00-18:00"
+   }
+   </script>
+
+10. HREFLANG ETİKETLERİ EKSİK (ÇOK DİLLİLİK)
+    ─────────────────────────────────────────────────────────
+    Durum: ❌ Hiç yok
+    
+    Sorun: Site TR/EN çok dilli ama Google bunu bilmiyor.
+    
+    Çözüm:
+    <link rel="alternate" hreflang="tr" href="https://tresmimarlik.com/">
+    <link rel="alternate" hreflang="en" href="https://tresmimarlik.com/en/">
+    <link rel="alternate" hreflang="x-default" href="https://tresmimarlik.com/">
+
+================================================================================
+🟡 İYİLEŞTİRME ÖNERİLERİ
+================================================================================
+
+11. BAŞLIK HİYERARŞİSİ (H1, H2, H3) DÜZENLENMELİ
+    ─────────────────────────────────────────────────────────
+    Durum: ⚠️ Kısmen doğru
+    
+    Mevcut yapı iyi ama bazı iyileştirmeler:
+    - Her sayfada TEK bir H1 olmalı
+    - H1 → H2 → H3 sıralaması korunmalı (atlama yapılmamalı)
+
+12. SEMANTİK HTML GELİŞTİRİLMELİ
+    ─────────────────────────────────────────────────────────
+    İyi Olan: Section, header, nav etiketleri kullanılmış ✅
+    
+    Eksik Olanlar:
+    - <main> etiketi kullanılmalı
+    - <article> proje kartları için kullanılabilir
+    - <aside> yan içerikler için kullanılabilir
+
+13. URL YAPILANDIRMASI
+    ─────────────────────────────────────────────────────────
+    Durum: ⚠️ Geliştirilebilir
+    
+    Mevcut: /projeler
+    
+    Öneri: Her projenin kendi URL'si olmalı:
+    - /projeler/aryom-koru
+    - /projeler/luxus-residence
+    (SEO için çok önemli - ayrı sayfa = ayrı indexleme)
+
+14. SAYFA YÜKLEME HIZI
+    ─────────────────────────────────────────────────────────
+    Olumlu:
+    ✅ WebP görsel formatı kullanılmış
+    ✅ Lazy loading aktif (loading="lazy")
+    ✅ Vercel Speed Insights entegre
+    
+    Geliştirilebilir:
+    - Görseller için srcset kullanılabilir (responsive images)
+    - Critical CSS inline edilebilir
+    - Font dosyaları preload edilmeli
+
+15. MOBİL UYUMLULUK
+    ─────────────────────────────────────────────────────────
+    Olumlu: 
+    ✅ Viewport meta etiketi mevcut
+    ✅ Responsive tasarım uygulanmış
+    
+    Kontrol Edilmeli:
+    - Google Mobile-Friendly Test yapılmalı
+    - Touch hedefleri yeterince büyük mü?
+
+================================================================================
+🟢 OLUMLU BULUNANLAR
+================================================================================
+
+✅ HTML lang="tr" doğru tanımlanmış
+✅ Viewport meta etiketi mevcut
+✅ Favicon tanımlı
+✅ Google Fonts preconnect kullanılmış
+✅ WebP görsel formatı kullanılmış
+✅ Lazy loading aktif
+✅ Semantic section etiketleri kullanılmış
+✅ ARIA label navigation'da mevcut
+✅ sr-only erişilebilirlik sınıfları kullanılmış
+✅ Gzip sıkıştırma (Vercel otomatik)
+✅ HTTPS (Vercel otomatik)
+
+================================================================================
+📋 ÖNCELİKLİ YAPILACAKLAR LİSTESİ
+================================================================================
+
+HEMEN YAPILMALI (Bu Hafta):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ 1. Meta description ekle (index.html)
+□ 2. Open Graph etiketleri ekle
+□ 3. robots.txt oluştur
+□ 4. sitemap.xml oluştur
+□ 5. Boş alt text'leri doldur
+
+YAKINDA YAPILMALI (Bu Ay):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ 6. Dinamik sayfa başlıkları (vue-meta)
+□ 7. Schema.org yapılandırılmış veri ekle
+□ 8. Hreflang etiketleri ekle (TR/EN)
+□ 9. Canonical URL'ler ekle
+
+GELİŞTİRME FAZINDA:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ 10. Proje detay sayfaları (ayrı URL'ler)
+□ 11. Blog/içerik stratejisi
+□ 12. Google Search Console kaydı
+□ 13. Google Analytics 4 entegrasyonu
+
+================================================================================
+🔧 TEKNİK NOTLAR
+================================================================================
+
+Vue-Meta Entegrasyonu İçin:
+─────────────────────────────────────────────────────────
+npm install @vueuse/head
+
+// main.js'e ekle:
+import { createHead } from '@vueuse/head'
+const head = createHead()
+app.use(head)
+
+// Her view'da:
+import { useHead } from '@vueuse/head'
+useHead({
+  title: 'Projelerimiz | Tres Mimarlık',
+  meta: [
+    { name: 'description', content: 'Tres Mimarlık projeleri...' }
+  ]
+})
+
+================================================================================
+                           RAPOR SONU
+               Hazırlayan: SEO Analiz Sistemi
+               Tres Mimarlık Web Sitesi Analizi
+================================================================================
